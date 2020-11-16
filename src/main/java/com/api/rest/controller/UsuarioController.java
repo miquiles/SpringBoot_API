@@ -16,12 +16,9 @@ import org.springframework.web.bind.annotation.*;
 import com.api.rest.model.Usuario;
 import com.api.rest.repository.UsuarioRepository;
 
-
-
-	
 @RestController
 @RequestMapping(value = "/usuario")
-public class IndexController {
+public class UsuarioController {
 	
 	@Autowired
 	private UsuarioRepository usuarioRepository;
@@ -73,7 +70,5 @@ public class IndexController {
 	}
 	
 
-	
-	
 	
 }

@@ -1,8 +1,7 @@
 package com.api.rest.DTO;
 
 import com.api.rest.model.Usuario;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
